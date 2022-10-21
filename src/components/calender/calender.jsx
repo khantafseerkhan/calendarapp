@@ -123,7 +123,8 @@ export const Calender = (props) => {
 
 
     return (
-        <div>
+        <div style={{margin:"10px 100px 0px 100px"}}>
+
 
             <div className="month">
                 <ul>
@@ -185,7 +186,7 @@ export const Calender = (props) => {
             </ul>
 
 
-            <div>
+            <div style={{margin:"15px 0px 0px 0px"}}>
 
                 <table className="table">
                     <tr>
