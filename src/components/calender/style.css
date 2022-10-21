@@ -1,13 +1,20 @@
+* {
+  box-sizing: border-box;
+}
 
-* {box-sizing: border-box;}
-ul {list-style-type: none;}
-body {font-family: Verdana, sans-serif;}
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+}
 
 .month {
   padding: 70px 25px;
   width: 100%;
   background-color: #192667;
-    text-align: center;
+  text-align: center;
 }
 
 .month ul {
@@ -35,7 +42,8 @@ body {font-family: Verdana, sans-serif;}
 .weekdays {
   margin: 0;
   padding: 10px 0;
-  background-color: #192667;}
+  background-color: #192667;
+}
 
 .weekdays li {
   display: inline-block;
@@ -45,21 +53,21 @@ body {font-family: Verdana, sans-serif;}
 }
 
 .days {
-  padding: 2px 0;
+  padding: 4px 0px 0px 18px;
   background: #eee;
   margin: 0;
 }
 
 .days li {
-    list-style-type: none;
-    display: inline-block;
-    width: 13.6%;
-    text-align: left;
-    margin-bottom: -2px;
-    font-size: 21px;
-    color: #777;
-    height: 72px;
-    border: 1px solid black;
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: left;
+  margin-bottom: -2px;
+  font-size: 21px;
+  color: #777;
+  height: 72px;
+  border: 1px solid black;
 }
 
 .days li .active {
@@ -70,16 +78,31 @@ body {font-family: Verdana, sans-serif;}
 
 /* Add media queries for smaller screens */
 @media screen and (max-width:720px) {
-  .weekdays li, .days li {width: 13.1%;}
+
+  .weekdays li,
+  .days li {
+    width: 13.1%;
+  }
 }
 
 @media screen and (max-width: 420px) {
-  .weekdays li, .days li {width: 12.5%;}
-  .days li .active {padding: 2px;}
+
+  .weekdays li,
+  .days li {
+    width: 12.5%;
+  }
+
+  .days li .active {
+    padding: 2px;
+  }
 }
 
 @media screen and (max-width: 290px) {
-  .weekdays li, .days li {width: 12.2%;}
+
+  .weekdays li,
+  .days li {
+    width: 12.2%;
+  }
 }
 
 .active {
@@ -87,23 +110,29 @@ body {font-family: Verdana, sans-serif;}
   color: white !important
 }
 
-.today{
+.today {
   background: yellow;
   color: black !important
 }
 
-.table{
+.table {}
 
-}
-.table tr td{
+.table tr td {
   padding: 5px;
   font-size: 12ox;
   font-size: 25px;
   font-family: sans-serif;
 }
 
-.table tr td:first-child { background: #8ae2b6;}
+.table tr td:first-child {
+  background: #8ae2b6;
+}
 
 
-.table tr:nth-child(even) {background: #CCC}
-.table tr:nth-child(odd) {background: #FFF}
+.table tr:nth-child(even) {
+  background: #CCC
+}
+
+.table tr:nth-child(odd) {
+  background: #FFF
+}
