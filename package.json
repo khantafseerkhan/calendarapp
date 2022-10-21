@@ -1,6 +1,6 @@
 {
 
-  "homepage": "https://github.com/khantafseerkhan/calendarapp.git",
+  "homepage": "hhttps://khantafseerkhan.github.io/calendarapp/",
 
   "name": "calender",
 
@@ -29,15 +29,10 @@
   },
 
   "scripts": {
-
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-
-    "build": "react-scripts build",
-
-    "test": "react-scripts test",
-
-    "eject": "react-scripts eject"
-
+    "build": "react-scripts build"
   },
 
   "eslintConfig": {
