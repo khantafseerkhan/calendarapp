@@ -123,7 +123,7 @@ export const Calender = (props) => {
 
 
     return (
-        <div style={{margin:"10px 100px 0px 100px"}}>
+        <div style={{margin:"10px 10px 0px 10px"}}>
 
 
             <div className="month">
